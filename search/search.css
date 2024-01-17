@@ -7,14 +7,14 @@
   
   /* Style for header */
   header {
-    background-color: burlywood;
+    background-color: rgb(84, 84, 84);
     padding: 20px 20px 0;
     text-align: center;
     padding-bottom: 90px;
   }
 
   body{
-    background-color: burlywood;
+    background-color: rgb(84, 84, 84);
   }
 
   main{
@@ -26,12 +26,6 @@
     margin-bottom: 10px;
   }
 
-  .search-container h1 {
-    color: black;
-   font-family: 'open sans', sans-serif;
-   font-size: 35px;
-  }
-  
   .search-bar {
     width: 300px;
     padding: 8px;
@@ -59,7 +53,7 @@
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    background-color: burlywood;
+    background-color: rgb(84, 84, 84);
     margin-top: 13px;
   }
   
@@ -81,9 +75,9 @@
     height: auto;
   }
 .logo img{
-    max-width: 160px;
+    max-width: 300px;
   height: auto;
-  background-color: burlywood;
+  background-color: rgb(84, 84, 84);
 } 
 
 p{
@@ -144,11 +138,6 @@ p{
   border: 1px solid #ddd;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
   z-index: 1;
-}
-
-/* Style for the confirmation message */
-.modal p {
-  margin-bottom: 10px; /* Add space below the confirmation message */
 }
 
 /* Style for the buttons */

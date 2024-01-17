@@ -1,4 +1,4 @@
-const apiKey = "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";
+const apiKey = "";
 
 const maxImages = 12; // Number of images to generate for each prompt
 let selectedImageNumber = null;
@@ -41,7 +41,7 @@ async function generateImages(input) {
         const prompt = `${input} ${randomNumber}`;
         // We added random number to prompt to create different results
         const response = await fetch(
-            "https://api-inference.huggingface.co/models/dreamlike-art/dreamlike-photoreal-2.0",
+            "",
             {
                 method: "POST",
                 headers: {
